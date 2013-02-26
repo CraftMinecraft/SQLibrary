@@ -1,5 +1,4 @@
 name: SQLibrary
-version: 4.2
-description: A facade similar to Vault that abstracts the coder from the JDBC and each database driver's implementation.
-author: PatPeter
 main: lib.PatPeter.SQLibrary.SQLibrary
+version: 4.2
+author: PatPeter

@@ -4,7 +4,7 @@
 
   <groupId>lib.PatPeter</groupId>
   <artifactId>SQLibrary</artifactId>
-  <version>4.0</version>
+  <version>4.2</version>
   <name>SQLibrary</name>
   <description>Library for multiple database engine support in Bukkit and CraftBukkit.</description>
 
@@ -14,16 +14,22 @@
 
   <repositories>
     <repository>
-      <id>bukkit-repo</id>
-      <url>http://repo.bukkit.org/content/groups/public/</url>
+      <id>sonatype-oss-public</id>
+      <url>https://oss.sonatype.org/content/groups/public/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
     </repository>
   </repositories>
-
+  
   <dependencies>
     <dependency>
-      <groupId>org.bukkit</groupId>
-      <artifactId>bukkit</artifactId>
-      <version>1.4.7-R1.0</version>
+      <groupId>net.md-5</groupId>
+      <artifactId>bungeecord-api</artifactId>
+      <version>1.4.7-SNAPSHOT</version>
       <type>jar</type>
       <scope>provided</scope>
     </dependency>
