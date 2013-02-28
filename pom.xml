@@ -6,7 +6,7 @@
   <artifactId>SQLibrary</artifactId>
   <version>4.2</version>
   <name>SQLibrary</name>
-  <description>Library for multiple database engine support in Bukkit and CraftBukkit.</description>
+  <description>Library for multiple database engine support in BungeeCord.</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
