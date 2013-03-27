@@ -4,7 +4,7 @@
 
   <groupId>net.craftminecraft.bungee</groupId>
   <artifactId>sqlibrary</artifactId>
-  <version>4.2-SNAPSHOT</version>
+  <version>4.2</version>
   <name>SQLibrary</name>
   <description>Library for multiple database engine support in BungeeCord.</description>
   <distributionManagement>
