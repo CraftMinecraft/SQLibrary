@@ -2,11 +2,29 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>lib.PatPeter</groupId>
-  <artifactId>SQLibrary</artifactId>
-  <version>4.2</version>
+  <groupId>net.craftminecraft.bungee</groupId>
+  <artifactId>sqlibrary</artifactId>
+  <version>4.2-SNAPSHOT</version>
   <name>SQLibrary</name>
   <description>Library for multiple database engine support in BungeeCord.</description>
+  <distributionManagement>
+    <repository>
+     <id>deployment</id>
+     <name>Internal Releases</name>
+     <url>http://repo.craftminecraft.net/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+     <id>deployment</id>
+     <name>Internal Releases</name>
+     <url>http://repo.craftminecraft.net/content/repositories/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <scm>
+    <connection>scm:git:https://github.com/CraftMinecraft/SQLibrary.git</connection>
+    <developerConnection>scm:git:https://github.com/CraftMinecraft/SQLibrary.git</developerConnection>
+    <tag>HEAD</tag>
+    <url>https://github.com/CraftMinecraft/SQLibrary</url>
+  </scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -43,8 +61,8 @@
         <version>2.3.2</version>
         <configuration>
           <!-- Minimum Minecraft requirement -->
-          <source>1.5</source>
-          <target>1.5</target>
+          <source>1.7</source>
+          <target>1.7</target>
         </configuration>
       </plugin>
     </plugins>
